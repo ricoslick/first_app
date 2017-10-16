@@ -9,7 +9,7 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.3'
 # Use sqlite3 as the database for Active Record
-group :development do
+group :test, :production do
 	gem 'sqlite3', '~> 1.3.13'
 end
 # Use Puma as the app server
